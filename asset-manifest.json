@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cosmonaut-frontend/static/css/main.00d5228e.css",
-    "main.js": "/cosmonaut-frontend/static/js/main.6e0a18db.js",
+    "main.js": "/cosmonaut-frontend/static/js/main.2b260d72.js",
     "static/media/crypto-alienArtboard-2.png": "/cosmonaut-frontend/static/media/crypto-alienArtboard-2.180486a3f247eeba2d02.png",
     "static/media/space4Artboard-22.png": "/cosmonaut-frontend/static/media/space4Artboard-22.7f144d8c0d5a1014484e.png",
     "static/media/spaceship-translucent.png": "/cosmonaut-frontend/static/media/spaceship-translucent.b02c2c95c2f342b6dcf7.png",
@@ -14,10 +14,10 @@
     "index.html": "/cosmonaut-frontend/index.html",
     "static/media/arrow.svg": "/cosmonaut-frontend/static/media/arrow.69ee68b1834989c2b3a2807c7f140505.svg",
     "main.00d5228e.css.map": "/cosmonaut-frontend/static/css/main.00d5228e.css.map",
-    "main.6e0a18db.js.map": "/cosmonaut-frontend/static/js/main.6e0a18db.js.map"
+    "main.2b260d72.js.map": "/cosmonaut-frontend/static/js/main.2b260d72.js.map"
   },
   "entrypoints": [
     "static/css/main.00d5228e.css",
-    "static/js/main.6e0a18db.js"
+    "static/js/main.2b260d72.js"
   ]
 }

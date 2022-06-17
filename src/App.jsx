@@ -20,7 +20,7 @@ function App() {
             <UserContext.Provider value={userData}>
               <div>
                 <Routes>
-                  <Route path="/" element={<Main />} />
+                  <Route path="/cosmonaut-frontend" element={<Main />} />
                   {/* Testing */}
                   <Route path="/ts" element={<UserStart />} />
                   {/* Testing */}

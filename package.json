@@ -26,7 +26,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "postbuild": "cp build/index.html build/404.html",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -55,5 +56,5 @@
     "tailwind-styled-components": "^2.1.7",
     "tailwindcss": "^3.0.24"
   },
-  "homepage": "http://D3LAB-DAO.github.io/cosmonaut-frontend"
+  "homepage": "http://D3LAB-DAO.github.io/cosmonaut-frontend/"
 }

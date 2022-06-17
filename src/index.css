@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans";
+  color: #fff;
+  background-color: #303030;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+* {
+  box-sizing: border-box;
+}
+
+.bg-image,
+.bg-space,
+.bg-spaceship {
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+.bg-space {
+  background-size: cover;
+  background-image: url("./assets/images/space2Artboard-19.png");
+  overflow-x: auto;
+  overflow-y: auto;
+}
+.bg-spaceship {
+  background-size: contain;
+  margin-bottom: auto;
+  padding-bottom: 40px;
+  opacity: 1;
+  background-color: rgba(251, 248, 248, 0);
+  background-image: url("./assets/images/spaceship-translucent.png");
+}
+.bg-image {
+  background-image: url("./assets/images/prompter.png");
+  background-size: cover;
+  position: static;
+}
+.bg-space2 {
+  background-image: url("./assets/images/space4Artboard-22.png");
+  background-size: contain;
+}
+.h-720px,
+.max-height-720px,
+.max-height.max-height-720px {
+  max-height: 720px;
+}
+.bg-space-3 {
+  background-image: url("./assets/images/space3Artboard-19.png");
+}

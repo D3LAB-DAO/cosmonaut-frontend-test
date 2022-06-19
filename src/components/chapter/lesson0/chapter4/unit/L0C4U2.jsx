@@ -15,7 +15,7 @@ const ContentDesc = tw.div`mb-3`;
 const Background = tw.section`pt-14 pb-8 px-6 lg:px-10 bg-black bg-cover bg-center`;
 const ChapterHeader = tw.div`items-center lg:mx-4 mx-8  ml-2 mb-4`;
 
-function L0C1U1() {
+function L0C4U2() {
   return (
     <>
       <Navbar />
@@ -28,10 +28,10 @@ function L0C1U1() {
         <ChapterHeader>
           <div class="flex flex-wrap items-baseline md:mx-0 mx-4 lg:mb-16 mb-8">
             <h2 class="text-2xl md:text-left text-center md:text-3xl mr-6 font-heading">
-              Chapter 1
+              Chapter 4
             </h2>
             <h3 class="text-xl  md:text-left text-center md:text-2xl text-yellow-200 font-heading">
-              - 1. Go
+              - 2. Instantiate
             </h3>
           </div>
         </ChapterHeader>
@@ -42,25 +42,24 @@ function L0C1U1() {
               <div class="flex sm:flex-nowrap">
                 <div class="w-full lg:w-auto lg:pt-3 pt-2 pb-2 lg:pb-0">
                   <h1 class="text-center md:text-left xl:text-2xl font-extrabold text-xl">
-                    Go Installer
+                    wasm binary executable
                   </h1>
                 </div>
               </div>
             </ContentHeader>
-
             <ContentDesc>
               <p class="font-normal lg:text-base text-sm mb-4">
-                Go 인스톨러를 통해 쉽게 설치하실 수 있으며, 혹은 아래 설치
-                명령어를 통해 설치하실 수 있습니다.
+                만들어낸 wasm binary executable은 블록체인에 업로드할 수
+                있습니다.
               </p>
-              <a href="https://go.dev/doc/install">
-                <p class="font-normal lg:text-base text-sm mb-4">
-                  https://go.dev/doc/install
-                </p>
-              </a>
+
               <p class="font-normal lg:text-base text-sm mb-4">
-                현재 시점을 기준으로, Go v1.17+ 이상 버전을 설치하시길
-                추천드립니다.
+                바이트코드는 CODE_ID를 통해 다운로드할 수 있고, 이를 보유하고
+                있는 바이트코드와 diff를 통해 비교해 검증할 수 있습니다.
+              </p>
+
+              <p class="font-normal lg:text-base text-sm mb-4">
+                이제 wasm 컨트랙트를 인스턴스화 할 수 있습니다.
               </p>
             </ContentDesc>
           </Desc>
@@ -72,4 +71,4 @@ function L0C1U1() {
   );
 }
 
-export default L0C1U1;
+export default L0C4U2;

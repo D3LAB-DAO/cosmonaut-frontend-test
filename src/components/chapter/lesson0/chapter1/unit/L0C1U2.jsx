@@ -52,17 +52,21 @@ function L0C1U2() {
               <p class="font-normal lg:text-base text-sm mb-4">
                 rustup은 Rust를 설치하는 가장 쉬운 방법 중 하나입니다.
               </p>
-              <p class="font-normal lg:text-base text-sm mb-4">
-                https://rustup.rs
-              </p>
+              <a href="https://rustup.rs">
+                <p class="font-normal lg:text-base text-sm mb-4">
+                  https://rustup.rs
+                </p>
+              </a>
               <p class="font-normal lg:text-base text-sm mb-4">
                 이외에 패키지매니저 또는 스탠드얼론 인스톨러를 이용하거나
                 소스코드로부터 바로 빌드할 수도 있지만, 특별한 경우가 아니라면
                 rustup을 사용하는 편이 훨씬 쉽고 빠릅니다.
               </p>
-              <p class="font-normal lg:text-base text-sm mb-4">
-                https://forge.rust-lang.org/infra/other-installation-methods.html
-              </p>
+              <a href="https://forge.rust-lang.org/infra/other-installation-methods.html">
+                <p class="font-normal lg:text-base text-sm mb-4">
+                  https://forge.rust-lang.org/infra/other-installation-methods.html
+                </p>
+              </a>
               <p class="font-normal lg:text-base text-sm mb-4">
                 설치가 잘 되었는지 확인하기 위해, 간단한 “Hello, world!” 예제를
                 만들어 볼 것입니다.

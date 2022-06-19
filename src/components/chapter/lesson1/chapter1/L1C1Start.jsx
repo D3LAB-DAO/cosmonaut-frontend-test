@@ -11,15 +11,15 @@ const Button = tw.button`bg-white xl:h-44 md:h-36 h-32 flex items-center justify
 const ChNumber = tw.h2`h-1/2 w-full px-1 xl:pb-4 md:pb-3 pb-3 block md:text-base xl:text-lg text-xs font-heading text-indigo-900`;
 const ChTitle = tw.h3`h-1/2 w-full px-1 xl:pt-4 md:pt-3 pt-2 xl:text-sm text-center text-xs font-mono text-indigo-900`;
 
-function L0C1Start() {
+function L1C1Start() {
   const data = useContext(ContentContext);
   const [info, setInfo] = useState([]);
 
   useEffect(() => {
-    setInfo(data[0].lesson0);
+    setInfo(data[0].lesson1);
   }, [data]);
 
-  console.log(data[0].lesson0);
+  console.log(data[0].lesson1);
 
   const [checkChID, setCheckChID] = useState();
   const [checkId, setCheckId] = useState();
@@ -47,7 +47,7 @@ function L0C1Start() {
               Lesson {id}
             </h3>
             <h4 class="md:text-2xl text-lg font-heading md:mb-4 mb-2 text-center">
-              Get Ready for Terraforming
+              Welcome to spaceship factory
             </h4>
             <Progress>
               <div class="w-full rounded-full bg-gray-200 mb-1">
@@ -126,4 +126,4 @@ function L0C1Start() {
   );
 }
 
-export default L0C1Start;
+export default L1C1Start;

@@ -15,7 +15,7 @@ const ContentDesc = tw.div`mb-3`;
 const Background = tw.section`pt-14 pb-8 px-6 lg:px-10 bg-black bg-cover bg-center`;
 const ChapterHeader = tw.div`items-center lg:mx-4 mx-8  ml-2 mb-4`;
 
-function L0C1U1() {
+function L1C1U2() {
   return (
     <>
       <Navbar />
@@ -66,10 +66,10 @@ function L0C1U1() {
           </Desc>
         </Contents>
       </Background>
-      <Navigator title="Get Ready for Terraforming" />
+      <Navigator title="Welcome to spaceship factory" />
       <Footer />
     </>
   );
 }
 
-export default L0C1U1;
+export default L1C1U2;

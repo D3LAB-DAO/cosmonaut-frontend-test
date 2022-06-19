@@ -11,7 +11,7 @@ const Button = tw.button`bg-white xl:h-44 md:h-36 h-32 flex items-center justify
 const ChNumber = tw.h2`h-1/2 w-full px-1 xl:pb-4 md:pb-3 pb-3 block md:text-base xl:text-lg text-xs font-heading text-indigo-900`;
 const ChTitle = tw.h3`h-1/2 w-full px-1 xl:pt-4 md:pt-3 pt-2 xl:text-sm text-center text-xs font-mono text-indigo-900`;
 
-function L0C1Start() {
+function L0C4Start() {
   const data = useContext(ContentContext);
   const [info, setInfo] = useState([]);
 
@@ -51,7 +51,7 @@ function L0C1Start() {
             </h4>
             <Progress>
               <div class="w-full rounded-full bg-gray-200 mb-1">
-                <Bar style={{ width: "24%" }}>
+                <Bar style={{ width: "80%" }}>
                   <div class="block bg-orange-400 border-1 border-gray-200 md:h-1.5 md:w-1.5 h-1 w-1 rounded-full"></div>
                 </Bar>
               </div>
@@ -72,7 +72,7 @@ function L0C1Start() {
                     ></path>
                   </svg>
                 </span>
-                <span class="md:text-sm text-xs font-bold text-orange-400">
+                <span class="md:text-sm text-xs font-medium text-gray-50">
                   Chp.1
                 </span>
                 <span class="md:text-sm text-xs font-medium text-gray-50">
@@ -81,7 +81,7 @@ function L0C1Start() {
                 <span class="md:text-sm text-xs font-medium text-gray-50">
                   Chp.3
                 </span>
-                <span class="md:text-sm text-xs font-medium text-gray-50">
+                <span class="md:text-sm text-xs font-bold text-orange-400">
                   Chp.4
                 </span>
                 <span class="flex md:text-sm text-xs justify-end font-mono text-gray-50">
@@ -126,4 +126,4 @@ function L0C1Start() {
   );
 }
 
-export default L0C1Start;
+export default L0C4Start;

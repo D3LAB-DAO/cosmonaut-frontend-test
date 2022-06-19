@@ -31,7 +31,7 @@ function L0C1U3() {
               Chapter 1
             </h2>
             <h3 class="text-xl  md:text-left text-center md:text-2xl text-yellow-200 font-heading">
-              - 1. Go
+              - 3. Cargo
             </h3>
           </div>
         </ChapterHeader>

@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import tw from "tailwind-styled-components";
+import { ContentContext } from "../../libs/context/ContentContext";
 
 const Title = tw.h2`
 text-2xl 
@@ -22,26 +23,16 @@ const Button = tw.div`flex flex-wrap mt-10 lg:justify-end justify-center`;
 
 function Curriculum() {
   const { id } = useParams();
-  const info = [
-    { number: 0, title: "Get Ready for Terraforming" },
-    {
-      number: 1,
-      title: "Welcome to Spaceship Factory",
-    },
-    {
-      number: 2,
-      title: "Fuel Up and Load the Freight",
-    },
-    {
-      number: 3,
-      title: "Prepare to Launch",
-    },
-    {
-      number: 4,
-      title: "ESFERA Takeoff",
-    },
-    { number: 5, title: "Let's Play a Game!" },
-  ];
+  const data = useContext(ContentContext);
+  const [info, setInfo] = useState([]);
+
+  useEffect(() => {
+    setInfo(data[0].lessonInfo);
+  }, [data]);
+
+  console.log(data[0].lessonInfo);
+  console.log(info);
+
   const goUrl = `/lesson/${id}/chapter/1`;
   return (
     <>
@@ -49,7 +40,7 @@ function Curriculum() {
         <div class="max-w-lg px-4 mx-auto">
           <Title>Curriculum</Title>
           <List>
-            {info.map(e => {
+            {info?.map(e => {
               const url = `/lesson/${e.number}`;
               return (
                 <Link to={url}>

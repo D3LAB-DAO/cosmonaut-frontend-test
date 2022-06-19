@@ -1,9 +1,7 @@
-import React, { useContext } from "react";
-import { useParams } from "react-router-dom";
+import React from "react";
 import tw from "tailwind-styled-components";
 import GoalSVG from "../../assets/images/goal.svg";
 import ResultSVG from "../../assets/images/result.svg";
-import { ContentContext } from "../../libs/context/ContentContext";
 
 const Title = tw.h1`
 text-xs 
@@ -21,11 +19,6 @@ const SubDesc = tw.div`flex items-start md:my-6 md:mx-8 mx-4 text-gray-500 my-4`
 const Container = tw.div`bg-yellow-100 md:grid md:grid-cols-3 xl:gap-4 gap-2 md:mt-3 mt-2 md:items-start items-center xl:px-6 rounded-xl px-3 py-3 py-4 mx-4`;
 
 function Overview() {
-  const { id } = useParams();
-  const info = useContext(ContentContext);
-
-  console.log(info[id]);
-
   return (
     <>
       <div class="w-full lg:col-span-1 col-span-2 lg:mx-0 mx-auto lg:order-1 order-2">
@@ -35,10 +28,10 @@ function Overview() {
               <Title>Lesson Overview</Title>
               <SubTitle>
                 <h2 class="text-center text-lg font-heading text-indigo-900">
-                  Lesson {info[id].number}.
+                  Lesson 1.
                 </h2>
                 <h3 class="text-2xl text-center font-heading text-indigo-900">
-                  {info[id].title}
+                  Welcome to Spaceship Factory
                 </h3>
               </SubTitle>
               <Progress>
@@ -99,7 +92,7 @@ function Overview() {
               </Progress>
               <Desc>
                 <h2 class="md:text-lg text-sm font-mono text-gray-500">
-                  {info[id].desc}
+                  우주선 공장에 오신 것을 환영합니다!
                 </h2>
               </Desc>
               <SubDesc>

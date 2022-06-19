@@ -7,11 +7,12 @@ import SideMenu from "../common/SideMenu";
 
 const Container = tw.div`fixed transition ease-out duration-100 opacity-0 hover:opacity-100 focus:opacity-100 bottom-0 w-full z-50 border-3 border-indigo-900 bg-gray-50`;
 
-function Navigator() {
-  const { id, chID } = useParams();
+function Navigator({ title }) {
+  const { id, chID, uID } = useParams();
   const navigate = useNavigate();
-  const nextCh = Number(chID) + 1;
-  const prevCh = Number(chID) - 1;
+  const nextUnit = Number(uID) + 1;
+  const prevUnit = Number(uID) - 1;
+  console.log(title);
 
   const handleMenu = {
     // id가 menu인 친구의 class에 hidden을 더해준다
@@ -41,13 +42,17 @@ function Navigator() {
               Lesson {id}
             </h2>
             <h3 class="text-sm md:text-lg lg:text-xl self-end text-orange-400 font-heading">
-              Get Ready for Terraforming (tbu)
+              {title}
             </h3>
           </div>
         </div>
         <div class="lg:w-1/2 w-1/3 md:px-4 px-2">
           <div class="w-full flex flex-wrap items-center justify-end ">
-            <button onClick={() => navigate(`/lesson/${id}/chapter/${prevCh}`)}>
+            <button
+              onClick={() =>
+                navigate(`/lesson/${id}/chapter/${chID}/unit/${prevUnit}`)
+              }
+            >
               <div class="bg-green-500 inline-block lg:h-10 h-9 md:w-16 w-10 md:mr-6 mr-2 border-3 border-indigo-900 lg:shadow shadow-sm rounded">
                 <img
                   class="lg:h-6 lg:w-5 w-3 h-3 mx-auto mt-1"
@@ -56,7 +61,11 @@ function Navigator() {
                 />
               </div>
             </button>
-            <button onClick={() => navigate(`/lesson/${id}/chapter/${nextCh}`)}>
+            <button
+              onClick={() =>
+                navigate(`/lesson/${id}/chapter/${chID}/unit/${nextUnit}`)
+              }
+            >
               <div class="bg-blue-500 inline-block lg:h-10 h-9 md:w-16 w-10 md:mr-6 mr-2 border-3 border-indigo-900 lg:shadow shadow-sm rounded">
                 <img
                   class="lg:h-6 lg:w-5 w-3 h-3 mx-auto mt-1"

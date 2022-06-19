@@ -1,7 +1,7 @@
-import { Route, Routes, useRoutes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import MyPage from "./containers/MyPage/MyPage";
 import SignUp from "./components/profile/SignUp";
-import Chapter from "./containers/ChapterPage/Chapter";
+
 import Index from "./containers/IndexPage/Index";
 import Main from "./containers/MainPage/Main";
 import UserStart from "./components/chapter/UserStart";
@@ -28,7 +28,10 @@ function App() {
                   <Route path="/signup" element={<SignUp />} />
                   <Route path="/mypage" element={<MyPage />} />
                   <Route path="/lesson/:id" element={<Index />} />
-                  <Route path="/lesson/:id/chapter1" element={<ChapterNav />} />
+                  <Route
+                    path="/lesson/:id/chapter/:chID"
+                    element={<ChapterNav />}
+                  />
                 </Routes>
               </div>
             </UserContext.Provider>

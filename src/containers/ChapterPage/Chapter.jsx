@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import { useParams, Outlet } from "react-router";
+import { useParams } from "react-router";
 import Navbar from "../../components/common/Navbar";
 import Navigator from "../../components/chapter/Navigator";
 import tw from "tailwind-styled-components";

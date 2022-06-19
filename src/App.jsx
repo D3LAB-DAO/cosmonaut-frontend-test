@@ -1,15 +1,16 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useRoutes } from "react-router-dom";
 import MyPage from "./containers/MyPage/MyPage";
 import SignUp from "./components/profile/SignUp";
 import Chapter from "./containers/ChapterPage/Chapter";
 import Index from "./containers/IndexPage/Index";
 import Main from "./containers/MainPage/Main";
 import UserStart from "./components/chapter/UserStart";
-import { content, ContentContext } from "./context/ContentContext";
-import { UserContext, userData } from "./context/UserContext";
-import { orangeData, OrangeContext } from "./context/OrangeContext";
-import { GreenContext, greenData } from "./context/GreenContext";
-import { BlueContext, blueData } from "./context/BlueContext";
+import { content, ContentContext } from "./libs/context/ContentContext";
+import { UserContext, userData } from "./libs/context/UserContext";
+import { orangeData, OrangeContext } from "./libs/context/OrangeContext";
+import { GreenContext, greenData } from "./libs/context/GreenContext";
+import { BlueContext, blueData } from "./libs/context/BlueContext";
+import ChapterNav from "./containers/ChapterPage/ChapterNav";
 
 function App() {
   return (
@@ -27,10 +28,7 @@ function App() {
                   <Route path="/signup" element={<SignUp />} />
                   <Route path="/mypage" element={<MyPage />} />
                   <Route path="/lesson/:id" element={<Index />} />
-                  <Route
-                    path="/lesson/:id/chapter/:chID"
-                    element={<Chapter />}
-                  />
+                  <Route path="/lesson/:id/chapter1" element={<ChapterNav />} />
                 </Routes>
               </div>
             </UserContext.Provider>

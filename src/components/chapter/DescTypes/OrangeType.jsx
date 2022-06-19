@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import tw from "tailwind-styled-components";
-import { OrangeContext } from "../../../context/OrangeContext";
+import { OrangeContext } from "../../../libs/context/OrangeContext";
 
 const Header = tw.div`bg-orange-400 py-2 lg:py-6 md:py-3`;
 const Contents = tw.section`bg-black`;

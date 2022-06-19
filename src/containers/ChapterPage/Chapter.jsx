@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import { useParams } from "react-router";
+import { useParams, Outlet } from "react-router";
 import Navbar from "../../components/common/Navbar";
 import Navigator from "../../components/chapter/Navigator";
 import tw from "tailwind-styled-components";
@@ -16,6 +16,7 @@ const Background = tw.section`pt-14 pb-8 px-6 lg:px-10 bg-black bg-cover bg-cent
 
 function Chapter() {
   const { id, chID } = useParams();
+
   return (
     <>
       <Navbar />
@@ -24,6 +25,7 @@ function Chapter() {
           Cosmonaut | Lesson {id} Ch.{chID}
         </title>
       </Helmet>
+
       <Background
         style={{
           backgroundImage: `url(${Bgv4})`,

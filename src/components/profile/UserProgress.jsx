@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import tw from "tailwind-styled-components";
 import CNFT from "../../assets/images/esfera-nft.jpg";
-import { UserContext } from "../../context/UserContext";
+import { UserContext } from "../../libs/context/UserContext";
 
 const Section = tw.div`flex flex-wrap -mb-12`;
 const Progress = tw.div`mx-auto w-full mb-6`;

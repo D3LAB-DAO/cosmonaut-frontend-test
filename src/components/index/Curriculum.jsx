@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link, Outlet, useParams } from "react-router-dom";
 import tw from "tailwind-styled-components";
 
 const Title = tw.h2`
@@ -42,7 +42,7 @@ function Curriculum() {
     },
     { number: 5, title: "Let's Play a Game!" },
   ];
-  const goUrl = `/lesson/${id}/chapter/0`;
+  const goUrl = `/lesson/${id}/chapter1`;
   return (
     <>
       <div class="w-full mb-14 lg:mb-0 lg:col-span-1 col-span-2 lg:order-2 order-1">

@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import tw from "tailwind-styled-components";
 import GoalSVG from "../../assets/images/goal.svg";
 import ResultSVG from "../../assets/images/result.svg";
-import { ContentContext } from "../../context/ContentContext";
+import { ContentContext } from "../../libs/context/ContentContext";
 
 const Title = tw.h1`
 text-xs 

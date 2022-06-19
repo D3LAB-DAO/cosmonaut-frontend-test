@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import tw from "tailwind-styled-components";
-import { GreenContext } from "../../../context/GreenContext";
+import { GreenContext } from "../../../libs/context/GreenContext";
 
 const Header = tw.div`bg-green-500 py-2 lg:py-6 md:py-3`;
 const Contents = tw.div`bg-black pt-14 pb-16 bg-gray-700`;

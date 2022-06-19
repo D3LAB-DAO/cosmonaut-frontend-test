@@ -8,7 +8,7 @@ function Navbar() {
     <>
       <div class="fixed top-0 w-full z-50">
         <nav class="transition delay-200 ease-in-out duration-200 opacity-0 flex hover:opacity-100 focus:opacity-100 justify-between items-center lg:py-3 py-2 md:px-6 xl:px-10 px-6 relative bg-gray-700 shadow-xl">
-          <a class="text-lg font-bold" href="/">
+          <a class="text-lg font-bold" href="/cosmonaut-frontend">
             <img class="md:h-9 h-8 py-1" src={Logo} alt="" width="auto" />
           </a>
           <div class="xl:hidden flex items-center">

@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import tw from "tailwind-styled-components";
-import { BlueContext } from "../../../context/BlueContext";
+import { BlueContext } from "../../../libs/context/BlueContext";
 import Check from "../../common/Check";
 
 const Header = tw.div`bg-blue-500 py-2 lg:py-6 md:py-3`;

@@ -11,7 +11,7 @@ function Footer() {
         <div class="container mx-auto">
           <div class="flex flex-wrap justify-between items-center">
             <div class="w-full flex flex-wrap justify-between items-center mb-4">
-              <a class="mr-4" href="/">
+              <a class="mr-4" href="/cosmonaut-frontend">
                 <img class="lg:h-14 h-8" src={Logo} alt="" />
               </a>
               <p class="lg:text-lg text-xs font-mono text-right">

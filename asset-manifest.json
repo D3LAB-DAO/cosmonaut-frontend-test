@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cosmonaut-frontend/static/css/main.c0805da0.css",
-    "main.js": "/cosmonaut-frontend/static/js/main.f860b10d.js",
+    "main.css": "/cosmonaut-frontend/static/css/main.18720316.css",
+    "main.js": "/cosmonaut-frontend/static/js/main.ee7a7399.js",
     "static/media/d3lab-bg7.svg": "/cosmonaut-frontend/static/media/d3lab-bg7.2876b4e01db033a8a2be0c85fcba9b9b.svg",
     "static/media/25-spacehole-2x.jpg": "/cosmonaut-frontend/static/media/25-spacehole-2x.db80d5e6e271559d1a2a.jpg",
     "static/media/chapter-screen.png": "/cosmonaut-frontend/static/media/chapter-screen.2bbec45714091c98604c.png",
@@ -13,6 +13,7 @@
     "static/media/space2Artboard-19.png": "/cosmonaut-frontend/static/media/space2Artboard-19.68723ce30361544bfe72.png",
     "static/media/spacetrip.gif": "/cosmonaut-frontend/static/media/spacetrip.220413fcc36fd4eae151.gif",
     "static/media/signed-in-account3.svg": "/cosmonaut-frontend/static/media/signed-in-account3.6578b2213d7d8ec7b20a5833949ab7ff.svg",
+    "static/media/cosmonaut-finished.svg": "/cosmonaut-frontend/static/media/cosmonaut-finished.af5a1c9f7d0bd57ae2e89352fb93a06f.svg",
     "static/media/icon3.svg": "/cosmonaut-frontend/static/media/icon3.9e17fbe04d7a704b8cb54d0334afde66.svg",
     "static/media/circular3.gif": "/cosmonaut-frontend/static/media/circular3.93d2963baa572d409129.gif",
     "static/media/icon1.svg": "/cosmonaut-frontend/static/media/icon1.3fff93e9d979454737c3eb0239c89a14.svg",
@@ -29,7 +30,7 @@
     "static/media/account8.svg": "/cosmonaut-frontend/static/media/account8.3d253a5a7113809f8c1b2885ea2c5ea5.svg"
   },
   "entrypoints": [
-    "static/css/main.c0805da0.css",
-    "static/js/main.f860b10d.js"
+    "static/css/main.18720316.css",
+    "static/js/main.ee7a7399.js"
   ]
 }

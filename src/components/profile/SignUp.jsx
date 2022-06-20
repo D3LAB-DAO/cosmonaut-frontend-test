@@ -42,9 +42,6 @@ function SignUp() {
               </Signup>
               <p class="text-center text-orange-400 font-extrabold">
                 Already have accounts?
-                <a class="text-white hover:underline ml-1" href="/">
-                  Sign In
-                </a>
               </p>
             </div>
           </div>

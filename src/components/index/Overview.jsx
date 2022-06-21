@@ -92,7 +92,7 @@ function Overview() {
               </Progress>
               <Desc>
                 <h2 class="md:text-lg text-sm font-mono text-gray-500">
-                  우주선 공장에 오신 것을 환영합니다!
+                  Welcome to the spaceship factory!
                 </h2>
               </Desc>
               <SubDesc>
@@ -111,7 +111,7 @@ function Overview() {
                   ></path>
                 </svg>
                 <span class="md:text-lg text-left font-normal text-xs">
-                  개척을 위한 우주선 ESFERA를 만들어봅시다.
+                  Let's build a spacecraft called ESFERA to explore.
                 </span>
               </SubDesc>
               <Container>

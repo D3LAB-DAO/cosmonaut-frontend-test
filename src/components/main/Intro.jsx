@@ -40,15 +40,15 @@ function Intro() {
         >
           <div class="mx-auto text-center mt-24 mb-20">
             <span class="text-xl md:text-2xl font-extrabold text-orange-500">
-              코스모스의 개척자가 되어보세요!
+              Become a pioneer of Cosmos!
             </span>
             <h1 class="font-heading mt-4 mb-6 text-4xl md:text-6xl">
               COSMONAUT
             </h1>
             <p class="lg:text-lg md:text-md text-sm mb-10 leading-relaxed mx-4 md:mx-12 lg:mx-32">
-              Cosmonaut는 NFT 게임을 직접 만들면서 코즘와즘 컨트랙트와 DApp
-              제작을 경험하는 코딩 스쿨입니다.
-              <br /> 학습자는 Cosmonaut를 통해 다음 성취를 기대할 수 있습니다.
+              Cosmonaut is a coding school where you can experience creating
+              Cosmwasm contracts and DApps while making NFT games yourself.
+              <br /> Learners can expect to achieve the following:
             </p>
 
             <div class="flex flex-wrap mb-10 justify-center">
@@ -68,8 +68,7 @@ function Intro() {
                 Contract
               </h4>
               <p class="px-4 lg:text-lg text-sm text-white font-bold leading-7">
-                코즘와즘 컨트랙트를 만드는 방법을 학습하세요. CW20과 CW721을
-                만나고 이들을 응용해보세요.
+                Learn how to create a Cosmwasm contract. Meet CW20 and CW721.
               </p>
             </div>
           </div>
@@ -80,7 +79,8 @@ function Intro() {
                 Rust Language
               </h4>
               <p class="px-4 lg:text-lg text-sm text-white font-bold leading-7">
-                Rust 문법에 익숙해져봐요. 유닛 테스트와 최적화도 한번 해봅시다.
+                Get familiar with Rust. Let's do some unit testing and
+                optimization, too.
               </p>
             </div>
           </div>
@@ -91,7 +91,8 @@ function Intro() {
                 DApp
               </h4>
               <p class="px-4 lg:text-lg text-sm text-white font-bold leading-7">
-                CosmJS로 프론트엔드를 더해 DApp을 만들어 보세요.
+                Create a DApp by connecting frontend to your contracts through
+                CosmJS.
               </p>
             </div>
           </div>

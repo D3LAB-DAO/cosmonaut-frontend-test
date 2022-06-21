@@ -17,8 +17,8 @@ export const content = [
       {
         number: "1",
         title: "Welcome to Spaceship Factory",
-        desc: "우주선 공장에 오신 것을 환영합니다!",
-        subDesc: "개척을 위한 우주선 ESFERA를 만들어봅시다.",
+        desc: "Welcome to the spaceship factory!",
+        subDesc: "Let's build a spacecraft called ESFERA to explore.",
         goal: "NFT(CW721) 코드 분석 || Rust 문법 엿보기 || CW721 우주선 NFT 코드 || Instantiate",
         result:
           "Codes: NFT(CW721) 코드 || Asset: 우주선 공장 이미지 + NFT 우주선",

@@ -12,9 +12,8 @@ function About() {
         </div>
         <div class="max-w-3xl mx-auto text-center">
           <p class="lg:text-xl md:text-lg text-sm md:px-4 px-2 font-bold leading-relaxed mb-12 text-gray-50">
-            Cosmonaut는 코스모스 생태계에 컨트랙트를 만들고, 배포하고,
-            <br />
-            DApp으로 만드는 방법을 알려주는 무료 코딩 스쿨입니다!
+            Cosmonaut is a free coding school that teaches you how to create and
+            deploy contracts on Cosmos ecosystem.
           </p>
         </div>
         <img

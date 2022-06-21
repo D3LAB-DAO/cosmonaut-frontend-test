@@ -75,12 +75,10 @@ function Special() {
             What is so special?
           </h1>
           <p class="leading-7 text-sm md:text-lg text-green-500 font-semibold">
-            Cosmonaut는 코스모스 생태계에 컨트랙트를 만들고, 배포하고, DApp으로
-            만드는 방법을 알려주는 무료 코딩 스쿨입니다! 코즘와즘의 안전한
-            멀티-체인 컨트랙트를 학습해보세요. Cosmonaut는 코스모스, 코즘와즘,
-            그리고 Rust에 익숙하지 않은 분들도 쉽게 따라올 수 있게
-            만들어졌습니다. 걱정말고 우리를 따라오세요! 이쁘고 친절한 설명과
-            함께 코스모스의 세계로 다이브 해봅시다.
+            Learn Cosmwasm's secure multi-chain contract. Cosmonaut is made to
+            be easy to follow, even for unfamiliar one with Cosmos, Cosmwasm,
+            and Rust. Don't worry and just follow us! Let's deep dive into the
+            world of Cosmos with our pretty and kind explanations.
           </p>
         </div>
         <div class="flex flex-wrap -mx-4 -mb-8">
@@ -92,7 +90,8 @@ function Special() {
               <div>
                 <h3 class="font-extrabold mb-3 text-3xl">Bottom-UP</h3>
                 <h4 class="font-extrabold text-md">
-                  “개척자” 스토리에 녹아든, bottom-up 구성의 단계별 강좌
+                  Step-by-step lectures in bottom-up configuration, insinuating
+                  into the “pioneer” story.
                 </h4>
               </div>
             </div>
@@ -105,7 +104,7 @@ function Special() {
               <div>
                 <h3 class="font-extrabold mb-3 text-3xl">2 Division</h3>
                 <h4 class="font-extrabold text-md">
-                  학습과 실습을 동시에 진행할 수 있는 2분할 화면 구성
+                  Two-side split screen for concurrent learning and practice.
                 </h4>
               </div>
             </div>
@@ -118,8 +117,8 @@ function Special() {
               <div>
                 <h3 class="font-extrabold mb-3 text-3xl">Game</h3>
                 <h4 class="font-extrabold text-md">
-                  실제 구동되는 게임 만들어보기: Rust 코딩, 컨트랙트 작성 및
-                  배포, 프론트엔드 연결까지
+                  Create a real game: coding with Rust, writing and deploying
+                  contracts, and connecting to the frontend.
                 </h4>
               </div>
             </div>
@@ -132,7 +131,7 @@ function Special() {
               <div>
                 <h3 class="font-extrabold mb-3 text-3xl">Level</h3>
                 <h4 class="font-extrabold text-md">
-                  유닛 테스트와 최적화 등 프로덕트 레벨에서의 경험
+                  Experience unit testing and optimization at the product level.
                 </h4>
               </div>
             </div>

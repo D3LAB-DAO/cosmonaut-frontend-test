@@ -41,29 +41,31 @@ function Made() {
             <div class="mb-8 max-w-2xl mx-auto mt-4 ">
               <div class="flex mb-4 items-center">
                 <span class="md:text-base text-xs font-medium">
-                  D3LAB은 탈중앙화 철학을 준수하며 탈중앙화된 things를
-                  만드는 탈중앙화자율조직입니다. 많은 블록체인 프로젝트들이
-                  중앙화 요소를 가지고 있음을 지적하며, 소위 ‘어쩔 수 없이’
-                  중앙화했던 부분들을 기술로 해결하고 있습니다.
+                  D3LAB is a Decentralized Autonomous Organization that studies
+                  decentralized things in a decentralized manner. It was
+                  established to point out that many blockchain projects contain
+                  the so-called ‘inevitably’ centralized features for
+                  profit-seeking and their convenience.
                 </span>
               </div>
               <div class="flex mb-4 items-center">
                 <span class="md:text-base text-xs font-medium">
-                  우리는 다가올 멀티체인 미래에서 코스모스가 중요한 역할을
-                  수행할 것으로 믿고 있습니다. 또한, 코스모스 생태계에서
-                  컨트랙트 구동을 가능케 하는 코즘와즘도 못지 않게 중요합니다.
-                  코어와 컨트랙트 양 측에서 핵심 언어로 활약하고 있는 Rust도
-                  배워야 합니다. 그러나 이들을 학습하기 위한 교육 자료가 턱없이
-                  부족하고, 통합된 하나의 흐름으로 배울 수 있는 공간이 없어,
-                  낙담하는 학습자들이 많은 상황입니다. 이에 D3LAB에서는 우리
-                  “우주인"들을 “개척자"로 교육하고자 Cosmonaut를 만들었습니다.
+                  We believe that Cosmos and Cosmwasm will play an important
+                  role in the near multi-chain future. And Rust, the core
+                  language on both the core and contract, will be an
+                  essential knowledge to astronauts. However, there are not
+                  enough educational materials to study them and there is no
+                  space to learn as an integrated flow. That makes many learners
+                  discouraged. So we make Cosmonaut to educate astronauts as
+                  pioneers.
                 </span>
               </div>
               <div class="flex items-center">
                 <span class="md:text-base text-xs font-medium">
-                  이외에도 우리는 탈중앙화를 강화하기 위한 여러 프로젝트를 진행
-                  중에 있습니다. 자세한 내용은 다음 우리의 홈페이지를
-                  참고해주시길 바랍니다. 문의사항은 이메일로 문의 바랍니다.
+                  And we are working on several projects to strengthen
+                  decentralization. For more information, please refer to our
+                  website below. If you have any questions, please send an
+                  e-mail to the following address.
                 </span>
               </div>
             </div>

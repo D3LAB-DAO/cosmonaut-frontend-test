@@ -54,11 +54,11 @@ function Learn() {
               <div class="w-full px-4 mb-12">
                 <div class="md:-pr-32">
                   <p class="leading-7 font-medium md:text-lg text-sm lg:mr-10">
-                    코즘와즘의 안전한 멀티-체인 컨트랙트를 학습해보세요.
-                    Cosmonaut는 코스모스, 코즘와즘, 그리고 Rust에 익숙하지 않은
-                    분들도 쉽게 따라올 수 있게 만들어졌습니다. 걱정말고 우리를
-                    따라오세요! 이쁘고 친절한 설명과 함께 코스모스의 세계로
-                    다이브 해봅시다.
+                    Learn Cosmwasm's secure multi-chain contract. Cosmonaut is
+                    made to be easy to follow, even for unfamiliar one with
+                    Cosmos, Cosmwasm, and Rust. Don't worry and just follow us!
+                    Let's deep dive into the world of Cosmos with our pretty and
+                    kind explanations.
                   </p>
                 </div>
               </div>
